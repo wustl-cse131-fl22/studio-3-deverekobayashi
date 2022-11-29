@@ -9,9 +9,9 @@ public class Sieve {
 		Scanner in = new Scanner (System.in);
 		System.out.println("Value for n");
 		int n = (in.nextInt()-1);
-		int[] nArray = new int[n];
-		for (int o=0; o<nArray.length;o++) {
-			nArray[o]= o+2;
+		int[] nArray = new int[n]; //creates array of integers of size n, which is the value entered minus one
+		for (int o=0; o<nArray.length;o++) { 
+			nArray[o]= o+2; //assigns a new value for each slot in the array, starting at 2, adding one to each consecutive value??
 
 		}
 
